@@ -1,5 +1,6 @@
 console.log("Hello World");
 document.write("Hello World");
+document.write("<br/>");
 
 var num=10;
 console.log(num);
@@ -45,3 +46,11 @@ else{
     console.log("false")//because each symbol is unique
 }
 
+var count;
+document.write("Starting Loop"+"<br/>");
+for(count=0;count<10;count++){
+    document.write("Current Count:"+count);
+    document.write("<br/>");
+}
+
+document.write("Loop stopped");
