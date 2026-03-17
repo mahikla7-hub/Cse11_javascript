@@ -14,7 +14,7 @@ console.log(x);
 //selecting by tag name
 const result3=document.getElementsByTagName("p");
 result3[2].innerHTML="this is a pet";
-result3[1].style.color="blue";
+result3[1].style.color="blue"; //Add inline CSS 
 result3[1].innerText="my paragraph";
 console.log(result3);
 
@@ -25,3 +25,10 @@ for(x in test2){
     test2[x].style.color="blue";
 }
 console.log(test2);
+
+document.querySelector("ul li:nth-child(3)");
+
+function myFunction() {
+    document.getElementById("myH1").setAttribute ( "class" , "democlass");
+    alert("class attribute added"); 
+}
