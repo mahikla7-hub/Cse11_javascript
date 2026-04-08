@@ -17,7 +17,7 @@ function onMouseMove() {
     console.log("mouse move"); 
 }
 const x = document.querySelector('input');
-x.addEventListener( ' focus ', onhandlefocus);
+x.addEventListener( 'focus', onhandlefocus);
 x.addEventListener( 'blur', onhandlebur);
 function
 onhandlefocus() {
